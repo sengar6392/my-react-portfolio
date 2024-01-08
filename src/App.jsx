@@ -5,6 +5,7 @@ import Skills from "./components/skills/Skills"
 import "./app.scss"
 import { useState } from "react"
 import Menu from "./components/menu/Menu"
+import Contact from "./components/contact/Contact"
 
 function App() {
   const [menuOpen,setMenuOpen]=useState(false)
@@ -16,6 +17,7 @@ function App() {
         <Intro/>
         <Skills/>
         <Portfolio/>
+        <Contact/>
       </div>
     </div>
   )

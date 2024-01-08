@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .portfolio {
-  background-color: white;
+  background-color: crimson;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,12 +23,13 @@
 
   .container {
     width: 80%;
+    background-color: white;
     height: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    // border: 2px solid black;
+    border: 5px solid black;
     gap: 1rem;
     scrollbar-width: none; //for firefox
         scroll-behavior: smooth;
