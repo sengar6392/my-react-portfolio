@@ -1,0 +1,38 @@
+@import "../../global.scss";
+
+.portfolio {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+    overflow-y: hidden;
+  }
+
+  ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    li {
+      overflow-y: hidden;
+    }
+  }
+
+  .container {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    scrollbar-width: none; //for firefox
+        scroll-behavior: smooth;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+  }
+}

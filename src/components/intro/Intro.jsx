@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./intro.scss";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { init } from "ityped";
@@ -21,13 +22,14 @@ const Intro = () => {
       </div>
       <div className="right">
         <div className="wrapper">
+          {/* eslint-disable-next-line react/no-unescaped-entities, react/no-unescaped-entities */}
           <h2>Hi There, I'm</h2>
           <h1>Shivam Sengar</h1>
           <h3>
             React <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#portfolio">
+        <a href="#skills">
           <KeyboardArrowDownIcon className="arrow-down" />
         </a>
       </div>
