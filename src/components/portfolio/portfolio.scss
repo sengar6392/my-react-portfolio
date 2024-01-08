@@ -28,7 +28,8 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    border: 2px solid black;
+    // border: 2px solid black;
+    gap: 1rem;
     scrollbar-width: none; //for firefox
         scroll-behavior: smooth;
         &::-webkit-scrollbar{
